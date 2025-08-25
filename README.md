@@ -37,7 +37,7 @@ Dependencies
 bashpip install tensorflow pandas numpy scikit-learn dash plotly
 Quick Start
 bash# Clone repository
-git clone https://github.com/yourusername/amazon-logistics-prediction-tensorflow-dash.git
+git clone https://github.com/AdityaShankar1/amazon-logistics-prediction-tensorflow-dash
 cd amazon-logistics-prediction-tensorflow-dash
 
 # Train model and generate insights
