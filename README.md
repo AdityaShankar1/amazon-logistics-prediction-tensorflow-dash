@@ -47,7 +47,7 @@ python tensorflow_model.py
 python dash_app.py
 📈 Model Performance
 
-Mean Absolute Error:  29.09 on test data
+Mean Absolute Error:  29.09 minutes
 Training Epochs: 20
 Batch Size: 16
 Validation Split: 80/20
