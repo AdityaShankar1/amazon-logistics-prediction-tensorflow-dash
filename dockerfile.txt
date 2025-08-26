@@ -1,0 +1,16 @@
+# Use TensorFlow Python base image
+FROM tensorflow/tensorflow:latest-py3
+
+# Set working directory
+WORKDIR /app
+
+# Copy files into container
+COPY . /app
+
+# Install additional Python packages
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Default command to run TensorFlow script
+CMD ["python", "logiForecast.py"]
+
+CMD ["python", "dashLogi.py"]
